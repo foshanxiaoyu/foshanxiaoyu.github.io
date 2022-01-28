@@ -1,0 +1,77 @@
+
+#include <iostream>
+using namespace std;
+// def factorial(x):
+//     """This is a recursive function
+//     to find the factorial of an integer"""
+
+//     if x == 1:
+//         return 1
+//     else:
+//         return (x * factorial(x-1))
+
+
+// num = 3
+// print("The factorial of", num, "is", factorial(num))
+
+int factorial(int x)
+{
+  if(x==1) 
+  {
+      return 1;
+      
+  }
+    else {
+        return  x*factorial(x-1);
+    }
+}
+
+// decimal to binary recursiove 递归   十进制转二进制
+int covBinary(int decimal)
+  {
+    int res;
+   (decimal == 0)
+   ? res=0
+   : res=decimal % 2 + 10 * (covBinary(decimal / 2));
+//   return res;
+}
+
+int main() {
+    int n;
+    int num = 3;
+    int res=factorial(num);
+    // Write C++ code here
+    cin>>n;
+    
+    cout<<"The Number decimal:"<<n<<"\tThe Number binary :"<<covBinary(n)<<endl;
+    
+    std::cout << "The NUM:"<<num<<"\tresult="<<res<<endl;
+
+    return 0;
+}
+
+// Factorial of n = 1*2*3*...*n    阶乘 递归应用
+
+// #include <iostream>
+// using namespace std;
+
+// int factorial(int);
+
+// int main() {
+//     int n, result;
+
+//     cout << "Enter a non-negative number: ";
+//     cin >> n;
+
+//     result = factorial(n);
+//     cout << "Factorial of " << n << " = " << result;
+//     return 0;
+// }
+
+// int factorial(int n) {
+//     if (n > 1) {
+//         return n * factorial(n - 1);
+//     } else {
+//         return 1;
+//     }
+// }
