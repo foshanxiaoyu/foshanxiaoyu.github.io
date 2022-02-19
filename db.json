@@ -8,13 +8,13 @@
         },
 
         {
-          "id": 2,
+          "id": "2",
           "text": "在学校开会", 
           "day": "3 月 3 日下午 1:30", 
           "reminder": true
         },
         {
-          "id": 3,
+          "id": "3",
           "text": "食品购物", 
           "day": "3 月 3 日中午 12:30",
           "reminder": false
