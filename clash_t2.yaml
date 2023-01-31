@@ -164,7 +164,7 @@ proxy-groups:
     - "ss-v2ray"
     - "v2ray"
     - "trojan"
-  #url: 'http://www.gstatic.com/generate_204'
+  url: 'http://www.gstatic.com/generate_204'
   interval: 300
 
 # fallback 通过指定的 URL 测试并选择可用的节点，当 1 故障不可用时自动切换到 2 以此类推
