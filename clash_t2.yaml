@@ -46,10 +46,10 @@ experimental:
 # # 静态域的优先级高于通配符域（foo.example.com > *.example.com）
 hosts:
   'mtalk.google.com': 108.177.125.188
-#   '*.clash.dev': 127.0.0.1
+   '*.clash.dev': 127.0.0.1
 #   'alpha.clash.dev': '::1'
 
-# dns:
+ dns:
   # enable: true # set true to enable dns (default is false)
   # ipv6: false # default is false
   # listen: 0.0.0.0:53
@@ -61,10 +61,10 @@ hosts:
   # fake-ip-filter: # fake ip white domain list
   #   - '*.lan'
   #   - localhost.ptlogin2.qq.com
-  # nameserver:
-  #   - 114.114.114.114
-  #   - tls://dns.rubyfish.cn:853 # dns over tls
-  #   - https://1.1.1.1/dns-query # dns over https
+   nameserver:
+     - 114.114.114.114
+     - tls://dns.rubyfish.cn:853 # dns over tls
+     - https://1.1.1.1/dns-query # dns over https
   # fallback: # concurrent request with nameserver, fallback used when GEOIP country isn't CN
   #   - tcp://1.1.1.1
   # fallback-filter:
