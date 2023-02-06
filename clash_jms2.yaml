@@ -7,13 +7,13 @@ socks-port: 7891
 # Linux 及 macOS 的 redir 端口
 # redir-port: 7892
 
-allow-lan: true
+# allow-lan: true
 
 # 仅适用于设置 allow-lan 为 true 时
 # "*": 绑定所有 IP 地址
 # 192.168.122.11: 绑定单个 IPv4 地址
 # "[aaaa::a8aa:ff:fe09:57d8]": 绑定单个 IPv6 地址
- bind-address: "*"
+# bind-address: "*"
 
 # Rule / Global / Direct (默认为 Rule 模式)
 mode: Rule
