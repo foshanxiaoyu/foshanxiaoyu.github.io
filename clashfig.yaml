@@ -250,9 +250,9 @@ proxies:
   # 支持加密方式：auto / aes-128-gcm / chacha20-poly1305 / none
   - name: "vmess"
     type: vmess
-    server: server
+    server: "c36s3.jjvip8.com"
     port: 443
-    uuid: uuid
+    uuid: "3c12c518-63f0-4f4f-889f-f0cf92d31615"
     alterId: 32
     cipher: auto
     # udp: true
@@ -266,9 +266,9 @@ proxies:
 
   - name: "vmess-http"
     type: vmess
-    server: server
+    server: "c36s3.jjvip8.com"
     port: 443
-    uuid: uuid
+    uuid: "3c12c518-63f0-4f4f-889f-f0cf92d31615"
     alterId: 32
     cipher: auto
     # udp: true
